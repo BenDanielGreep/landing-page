@@ -68,11 +68,10 @@ section.content-section {
     // this is for the hover scroll effect
   overflow: hidden;
   position:relative;
-
   display: flex;
   flex-direction: column-reverse;
   height: 320px;
-  width: 420px;
+  width: 400px;
   margin: 24px 12px;
   padding: 0px;
   border-radius: 5px;
@@ -128,7 +127,7 @@ section.content-section {
   }
   span.pawsome{
     background-color: rgba(0,0,0,0.8);
-    bottom: -79%;
+    bottom: -70%;
   }
   span.coming-soon{
     background-color: rgba(0,0,0,0.7);
@@ -183,12 +182,18 @@ section.content-section {
   background-size: cover;
 }
 
-section .music-section {
+section.music-section {
   height: 500px !important;
   margin-top: 24px;
   .mas {
     margin-top: 54px;
   }
+}
+
+.music-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
