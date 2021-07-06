@@ -129,6 +129,10 @@ section.content-section {
     background-color: rgba(0,0,0,0.8);
     bottom: -70%;
   }
+  span.bathroom {
+    background-color: rgba(0,0,0,0.8);
+    bottom: -62%;
+  }
   span.coming-soon{
     background-color: rgba(0,0,0,0.7);
     background-image: none;
@@ -155,6 +159,14 @@ section.content-section {
 
 #pawsome-card {
   background-image: url("https://res.cloudinary.com/onetwothreefourfive/image/upload/v1625480870/pawsome-index_uzr7s7.png");
+  // background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#bathroom-card {
+  background-image: url("https://res.cloudinary.com/onetwothreefourfive/image/upload/v1625590120/BorrowMyBathroom_xhmolb.png");
   // background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
