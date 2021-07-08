@@ -65,6 +65,8 @@ section.content-section {
 }
 
 .col-lg-6 {
+  text-decoration: none;
+  color: #ffffff;
     // this is for the hover scroll effect
   overflow: hidden;
   position:relative;
@@ -104,6 +106,7 @@ section.content-section {
 }
 
 .caption span {
+  color: #ffffff;
   width: 100%;
   padding: 12px;
   background-color: rgba(0,0,0,0.7);
@@ -203,12 +206,22 @@ section.music-section {
 }
 
 .music-content {
+  padding-bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.music-title {
+  max-width: 1000px;
+}
+
+.mas {
+  margin-bottom: 100px;
+}
+
 footer {
+  margin-top: 100px;
   height: 100px;
   background-color: rgb(29, 147, 168);
   display: flex;
