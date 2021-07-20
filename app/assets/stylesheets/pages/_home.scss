@@ -200,6 +200,12 @@ section.content-section {
   background-size: cover;
 }
 
+.col-sm-12 { 
+  display: flex;
+  justify-content: center;
+
+}
+
 section.music-section {
   height: 500px !important;
   margin-top: 24px;
